@@ -4,26 +4,26 @@ public class MarioFogo implements MarioState {
 
 	
 	public MarioState pegarCogumelo() {
-		// TODO Auto-generated method stub
-		return null;
+		System.out.println("Mais 1000 pontos");
+		return this;
 	}
 
 	
 	public MarioState pegarFlor() {
-		// TODO Auto-generated method stub
-		return null;
+		System.out.println("Mais 1000 pontos");
+		return this;
 	}
 
 	
 	public MarioState pegarPena() {
-		// TODO Auto-generated method stub
-		return null;
+		System.out.println("Mario Grande com capa");
+		return new MarioCapa();
 	}
 
 	
 	public MarioState levarDano() {
-		// TODO Auto-generated method stub
-		return null;
+		System.out.println("Mario Grande");
+		return new MarioGrande();
 	}
 
 }
