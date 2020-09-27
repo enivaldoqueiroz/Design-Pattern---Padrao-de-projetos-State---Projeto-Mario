@@ -11,6 +11,7 @@ public class Principal {
 		mario.pegarFlor();		//Mario grande com fogo
 		mario.levarDano();		//Mario grande
 		mario.levarDano();		//Mario pequeno
+		mario.levarDano();
 
 	}
 
